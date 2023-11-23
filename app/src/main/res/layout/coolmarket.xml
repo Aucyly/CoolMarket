@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="COOL MARKET">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp">
+            <CheckBox
+                android:id="@+id/fruits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fruits">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/zamorozki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Заморозки">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/myaso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мясо">
+
+            </CheckBox>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp">
+
+            <CheckBox
+                android:id="@+id/ovoschi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Овощи">
+
+            </CheckBox>
+
+            <CheckBox
+                android:id="@+id/milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Молочка">
+
+            </CheckBox>
+            <CheckBox
+                android:id="@+id/sweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сладкое">
+
+            </CheckBox>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/dostavka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Доставка">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/samovyvoz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Самовывоз">
+
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/commentariy"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:hint="Оставьте комментарий">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/send"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Отправить">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тех. Поддержка">
+        </TextView>
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+7 (800) 555-35-35">
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
